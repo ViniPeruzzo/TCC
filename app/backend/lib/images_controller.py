@@ -176,3 +176,6 @@ class Test_Images:
 
         im_pil = Image.fromarray(cv2.cvtColor(img_aux, cv2.COLOR_BGR2RGB))
         im_pil.show()
+
+    def Return_img(self):
+        return self.Global_Train_Images
